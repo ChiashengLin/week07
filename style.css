@@ -1,0 +1,260 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+* {
+    /*outline:1px solid #000;*/
+}
+body {
+    line-height: 1;
+    font-family: "Bruno Ace SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+a {
+    text-decoration:none;
+    display:inline-block;
+    color:inherit;
+}
+
+.header {
+    background-color: #000;
+    color: #D1D1D1;
+}
+
+.nav {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:52px 0;
+}
+
+/*layout*/
+.h1 {
+    font-size:128px;
+}
+
+.h2 {
+    font-size: 64px;
+}
+
+/*this page*/
+.banner {
+    background:#000;
+    color:#fff;
+}
+
+.banner-title {
+    text-align:right;
+    display:block;
+}
+
+.container {
+    width:1296px;
+    margin:0 auto;
+}
+
+.title {
+    font-size:36px;
+}
+
+.t-primary {
+    color: #00FFA3;
+}
+
+.t-white {
+    color:#fff;
+}
+
+.flex {
+    display:flex;
+}
+
+.flex-col {
+    flex-direction:column;
+}
+
+.jc-end {
+    justify-content:end;
+}
+
+.jc-between{
+    justify-content:space-between;
+}
+
+.jc-around{
+    justify-content:space-around;
+}
+
+.aic {
+    align-items:center;
+}
+
+.ais {
+    align-items:start;
+}
+
+.ml-45 {
+    margin-left:45px;
+}
+
+.mr-24 {
+    margin-right:24px;
+}
+
+.mt-48 {
+    margin-top: 48px;
+}
+
+.mb-24 {
+    margin-bottom:24px;
+}
+
+.mb-28 {
+    margin-bottom: 28px;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
+
+.mb-35 {
+    margin-bottom: 35px;
+}
+
+.mb-52 {
+    margin-bottom: 52px;
+}
+    
+.gap-24 {
+    gap:24px;
+}
+
+.intro {
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:#fff;
+    padding:160px 0;
+}
+
+.intro-des {
+    width:526px;
+}
+
+.about {
+    padding:160px 0;
+}
+
+/*component*/
+.btn {
+    padding: 12px 24px;
+    border-radius: 32px;
+}
+
+.btn-white {
+    background:#FFF;
+    color:#000;
+}
+
+.btn-black {
+    background: #000;
+    color: #FFF;
+}
+
+.about-list {
+    width:636px;
+    flex-wrap:wrap;
+    grid-gap:24px;
+}
+
+.about-list li {
+    width: calc(50% - 24px);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+}
+
+.about-des {
+    width:526px;
+}
+
+.contact {
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+    padding:96px 0;
+}
+
+.social-media {
+    border-radius: 40px;
+    transition: 0.7s;
+}
+
+.social-media:hover {
+    box-shadow: 0px 0px 16px 3px #9094FFE5;
+}
+
+.social-media ul {
+    display:flex;
+    gap:20px;
+}
+
+.project {
+    padding:160px 0;
+}
+
+.pj-title {
+    width:746px;
+    margin-left:auto;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer p {
+    line-height:24px;
+}
